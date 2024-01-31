@@ -1,6 +1,13 @@
-console.log('This is a test!')
+/**
+ * combine both name into full name
+ * @param {string} firstName 
+ * @param {string} lastName
+ * @returns {string}
+ */
 
-console.log('hello change')
+function fullName(firstName, lastName){
+    return firstName + " " + lastName
+}
 
-console.log('test,test,test,test')
-
+let results = fullName('Roger', 'Lee')
+console.log(results)
